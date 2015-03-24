@@ -10,6 +10,8 @@ permalink: /reading-list/
 - [Conway's Law](http://en.wikipedia.org/wiki/Conway%27s_law)
 - [Fallacies of distributed computing](http://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 - [Rule of three](http://en.wikipedia.org/wiki/Rule_of_three_%28computer_programming%29)
+- Martin Fowler - [Microservices](http://martinfowler.com/articles/microservices.html)
+- Ian Robinson - [Consumer-Driven Contracts: A Service Evolution Pattern](http://martinfowler.com/articles/consumerDrivenContracts.html)
 
 ## Tools
 - [Nginx](http://nginx.org/en/docs/)
