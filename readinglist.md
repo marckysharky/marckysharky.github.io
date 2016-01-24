@@ -20,6 +20,7 @@ permalink: /reading-list/
 - [RubyDoc](http://ruby-doc.org/)
 
 ## Programming
+- Alan A. A. Donovan, Brian W. Kernighan - The Go Programming Language
 - Luke Welling - PHP and MySQL Web Development
 - Christian Darie - AJAX and PHP: Building Responsive Web Applications
 - Colin Moock - Essential ActionScript 3.0
@@ -29,6 +30,7 @@ permalink: /reading-list/
 - Chas Emerick, Brian Carper & Christophe Grand - Clojure Programming
 
 ## Science Fiction
+- Philip K. Dick - The Three Stigmata of Palmer Eldritch
 - Aldous Huxley - Brave New World
 - George Orwell - Nineteen Eighty-Four
 - Philip K. Dick - Do Androids Dream of Electric Sheep?
