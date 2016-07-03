@@ -1,11 +1,18 @@
-# Site settings
-title: marckysharky
-email: marcky.sharky@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+# Welcome to Jekyll!
+title: Marc Watts
+description: |
   Software developer, based in London.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-github_username:  marckysharky
+owner: Marc Watts # or company name
+first_published: 2016 # if migrating another site, the year of your first publish
+email: marcky.sharky@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://marckysharky.github.io" # the base hostname & protocol for your site
+social:
+  github: https://github.com/marckysharky
+  linkedin-square: https://linkedin.com/in/marcawatts
+  email: mailto:marcky.sharky@gmail.com
 
 # Build settings
 markdown: kramdown
+#sass:
+#  style: compressed

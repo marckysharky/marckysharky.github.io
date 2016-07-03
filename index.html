@@ -1,8 +1,57 @@
 ---
-layout: default
+layout: landing
 ---
+<!-- Banner -->
+<section id="banner">
+  <div class="inner">
+    <h2>{{ site.title }}</h2>
+    <p>{{ site.description | markdownify }}</p>
+  </div>
+  <a href="#software" class="more scrolly">Learn More</a>
+</section>
 
-<div class="home">
-  <p>I am currently developing this site, so there isn't much to see at the moment.</p>
-  <p>I will be publishing some posts, in the near future, on things I am working on. I will do my best to hasten my progress.</p>
-</div>
+<!-- Software -->
+<section id="software" class="wrapper style3 special">
+  <div class="inner">
+    <header class="major">
+      <h2>Software Development</h2>
+      <p>Software developer at <a href="https://www.uswitch.com" target="_blank">uSwitch</a> delivering APIs, web products and data services to a range of business teams and external customers.</p>
+    </header>
+    <ul class="features major">
+      <li class="icon fa-code">
+        <h2>Software</h2>
+        <p>Ruby, Clojure, and Golang. Others include Lua, OpenResty and Nginx.</p>
+      </li>
+      <li class="icon fa-database">
+        <h2>Data Persistence</h2>
+        <p>Postgresql, Redshift, ElasticSearch, Redis, Kafka, and Kinesis.</p>
+      </li>
+      <li class="icon fa-tachometer">
+        <h2>Continuous Integration</h2>
+        <p>Jenkins, Bamboo, and Drone.</p>
+      </li>
+      <li class="icon fa-paper-plane">
+        <h2>Deployment</h2>
+        <p>Amazon Web Services, Docker, Chef, and Puppet.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrapper alt style2">
+  <section class="spotlight" id="cycling">
+    <div class="image"><img src="images/etape_logo.jpg" alt="" /></div>
+    <div class="content">
+      <h2>Cycling</h2>
+      <p>Enjoy cycling inside and out of London. Currently preparing for the <a href="http://www.letapedutour.com/us/" target="_blank">Etape du Tour</a>.</p>
+      <p>Can be found on <a href="https://www.strava.com/athletes/2342302" target="_blank">Strava</a>.</p>
+    </div>
+  </section>
+  <section class="spotlight" id="travel">
+    <div class="image"><img src="images/mirissa.jpg" alt="" /></div>
+    <div class="content">
+      <h2>Travel</h2>
+      <p>Have been lucky to see some beautiful places, most recently Sri Lanka.</p>
+    </div>
+  </section>
+</section>
