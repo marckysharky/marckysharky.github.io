@@ -11,12 +11,16 @@
 
   <body>
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
+    <div id="wrapper">
 
       {% include header.html %}
+      {% include menu.html %}
 
-      {{ content }}
+      <div id="main">
+        <div class="inner">
+          {{ content }}
+        </div>
+      </div>
 
       {% include footer.html %}
 
