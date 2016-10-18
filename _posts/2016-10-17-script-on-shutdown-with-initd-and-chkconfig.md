@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Execuate a script on shutdown with init.d and chkconfig
+title: Execute a script on shutdown with init.d and chkconfig
 ---
 
 Referencing a number of sources, I recently implemented a simple trigger of a script on system shutdown using `init.d`.
