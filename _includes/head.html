@@ -3,9 +3,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <!--[if lte IE 8]><script src="{{ "/assets/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" />
-  <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/assets/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
-  <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/assets/css/ie9.css" | prepend: site.baseurl }}" /><![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <style>
+    html {
+      font-family: Verdana, Geneva, sans-serif;
+    }
+    body {
+      display: block;
+      margin: 0.8em;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1.3em;
+    }
+
+    h3 {
+      font-size: 1.1em;
+    }
+
+    h4 {
+      font-size: 0.9em;
+    }
+
+    a {
+      color: #4682B4;
+    }
+
+    pre {
+      background-color: #F0F8FF;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 0.8em;
+      padding: 0.5em;
+    }
+
+    header {
+      display: block;
+      font-size: 0.9em;
+      position: relative;
+      width: 100%;
+    }
+
+    nav {
+      border-bottom: 1px dotted black;
+      padding: 0.4em 0 1em 0;
+      position: relative;
+      width: 100%;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+    }
+
+    footer {
+      border-top: 1px dotted black;
+      font-size: 0.7em;
+    }
+
+    footer .links,
+    footer .copyright {
+      margin: 0.8em 0;
+      padding: 0;
+    }
+
+    footer .links li,
+    footer .copyright li {
+      display: inline-block;
+    }
+  </style>
 </head>

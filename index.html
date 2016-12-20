@@ -3,15 +3,17 @@ layout: default
 ---
 
 <section>
-  <h3>posts</h3>
+  <h3>Posts</h3>
   {% for p in site.posts %}
     <h5><a href="{{ p.url }}">{{ p.title }}</a></h5>
   {% endfor %}
 </section>
 
-<hr/>
-
 <section>
-  <h3>contact</h3>
-  <p>get in touch at <a href="mailto:marcky.sharky@gmail.com+subject=Hello">marcky dot sharky at gmail dot com</a>, <a href="https://www.linkedin.com/in/marcawatts">linkedin</a>, or <a href="https://github.com/marckysharky">github</a>.</p>
+  <h3>Links</h3>
+  <ul class="links">
+    <li><a href="https://www.linkedin.com/in/marcawatts">linkedin</a></li>
+    <li><a href="https://github.com/marckysharky">github</a></li>
+    <li><a href="https://www.hackerrank.com/marcky_sharky">hacker rank</a></li>
+  </ul>
 </section>

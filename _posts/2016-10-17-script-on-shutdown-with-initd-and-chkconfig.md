@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Execute a script on shutdown with init.d and chkconfig
 ---
 
